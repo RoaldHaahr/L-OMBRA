@@ -1,0 +1,1508 @@
+/*
+Template Name: Sans
+Author: Roald
+Version: 1.0
+*/
+
+@font-face {
+	font-family: Glegoo-regular;
+	src: url('fonts/Glegoo-Regular.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-bold;
+	src: url('fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-regular;
+	src: url('fonts/Montserrat-Regular.ttf');
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background-color: #eee;
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 16px 0;
+	padding: 0;
+	font-family: Montserrat-bold;
+}
+
+h1, h2, h3, h4, h5, h6, a:link, a:visited {
+	text-transform: uppercase;
+}
+
+a:link,
+a:visited {
+	color: #CC0000;
+	font-family: Montserrat-regular;
+}
+
+p {
+	margin: 16px 0;
+}
+
+p, table {
+	padding: 0;
+	font-family: Glegoo-regular;
+}
+
+table {
+	margin: 16px 0 0;
+}
+
+.short-divider {
+	display: block;
+	padding: 0 !important;
+	width: 60px !important;
+	height: 3px;
+	background-color: #222;
+}
+
+.long-divider {
+	display: block;
+	padding: 0 !important;
+	width: 250px !important;
+	height: 3px;
+	background-color: #222;
+}
+
+@media only screen and (min-width: 1280px) {
+
+	/* General Layout */
+
+	p {
+		font-size: 1.05em;
+	}
+
+	div.container {
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+
+	article {
+		padding: 1%;
+		margin: 1%;
+		background-color: #fff;
+		overflow: hidden;
+	}
+
+	article a {
+		display: block;
+		margin: 25px 0;
+	}
+
+	/* Header */
+
+	div.banner {
+		position: relative;
+                padding: 20px 0;
+		width: 100%;
+		background-image: url('images/banner.jpg');
+		text-align: center;
+	}
+
+	/* HOME PAGE */
+
+	article.our-story {
+		text-align: center;
+		width: 100%;
+		background-color: transparent;
+	}
+	
+	article.our-story h2 {
+		font-size: 2em;
+	}
+
+	article.our-story p {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+
+	article.our-story div.short-divider {
+		margin: auto;
+	}
+
+	article.first-row img {
+		width: 100%;
+		height: auto;
+	}
+
+	article.first-row p {
+		height: 6em;
+	}
+
+	article.preview {
+		display: inline-block;
+		width: 29.1%;
+		height: 445px !important;
+	}
+
+        article .preview-image-link {
+		margin: 0;
+		padding: 0;
+	}
+
+	article.news {
+		margin-bottom: 2%;
+		width: 96%;
+	}
+
+	article.news img {
+		margin-right: 2%;
+		float: left;
+	}
+
+	div.text-content {
+		width: 50%;
+		float: left;
+	}
+
+	/* Footer */
+	.site-footer {
+		padding: 1%;
+		background-color: #222;
+	}
+
+	.site-footer .logo-link {
+		margin: 50px 49px;
+		width: 179px;
+		float: left;
+	}
+
+	.site-footer .logo-link img {
+		width: 100%;
+		height: auto;
+	}
+
+	.site-footer p {
+		margin: 30px 49px 0 0;
+		font-family: Montserrat-regular;
+		color: #fff;
+		line-height: 1.5em;
+		float: left;
+	}
+
+	.site-footer .footer-right {
+		margin: 30px 49px;
+		text-align: center;
+		float: right;
+	}
+
+	.footer-right .social-media-container {
+		margin-bottom: 10px;
+	}
+
+	.site-footer .social-media {
+		margin: 0 2px;
+	}
+
+	/* Navigation Menu */
+
+	.site-header .site-nav {
+		background-color: #222;
+	}
+
+	.site-nav ul {
+		margin: 0;
+		padding-top: 5px;
+		padding-bottom: 42px;
+	}
+
+	.site-nav ul li {
+		text-transform: uppercase;
+		list-style: none;
+		float: left;
+	}
+
+	.site-nav a:link,
+	.site-nav a:visited {
+		color: #eee;
+		text-decoration: none;
+	}
+
+	.site-nav ul li a:link,
+	.site-nav ul li a:visited {
+		display: block;
+		padding: 10px 18px;
+	}
+
+	.site-nav .menu-item-1838 {
+		margin-top: 4px;
+		margin-right: 58px;
+		background-color: #CC0000;
+		border-radius: 5px;
+		float: right;
+	}
+
+	.site-nav .menu-item-1838 a:link,
+	.site-nav .menu-item-1838 a:visited {
+		padding: 5px 18px;
+	}
+
+	.site-nav ul li a:hover,
+	.site-nav ul li.current-menu-item a:link,
+	.site-nav ul li.current-menu-item a:visited {
+		text-decoration: underline;
+	}
+
+	nav.mobile-menu {
+		display: none;
+	}
+
+	.site-nav .menu-icon {
+		display: none;
+	}
+
+	/* Wine links */
+
+	div.wine-picture {
+		width: 100%;
+	}
+
+	nav.wine-links {
+		text-align: center;
+	}
+
+	nav.wine-links ul {
+		margin: 0;
+		padding: 0;	
+	}
+
+	nav.wine-links ul li {
+		display: inline-block;
+		padding: 0 25px;
+	}
+
+	nav.wine-links ul li a {
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+	a.current-wine-item {
+		text-decoration: underline !important;
+	}
+
+	/* Wine Container*/
+
+	.wine-container {
+		width: 100%;
+		text-align: center;
+	}
+
+	.wine-container .long-divider {
+		margin: 30px auto;
+	}
+
+	.wines {
+		width: 100%;
+	}
+
+	article.wine {
+		display: inline-block;
+		margin: 12px 13px;
+		padding: 0;
+		width: 272px;
+		height: 500px;
+		background-color: #fff;
+		text-align: center;
+	}
+
+	article.wine h2 {
+		margin: 0 0 22px 0;
+		padding-top: 19px;
+		height: 61px;
+		font-size: 18px;
+		color: #eee;
+		background-color: #222;
+	}
+
+	article.wine a.post-link {
+		margin-top: 24px;
+		font-size: 18px;
+	}
+
+	/* Contact */
+
+	section.restaurant-information {
+		margin: 1%;
+		width: 22.5%;
+		float: left;
+	}
+
+	section.restaurant-information article {
+		padding: 5%;
+		margin-bottom: 6%;
+		width: 100%;
+		background-color: #fff;
+	}
+
+	section.restaurant-information h4 {
+		margin-top: 0;
+	}
+
+	section.restaurant-information a {
+		display: inline-block;
+		margin: 0;
+	}
+
+	article.opening-hours table tr td {
+		width: 50%;
+	}
+
+	div.google-maps-embed-api {
+		padding: 1%;
+		margin: 1%;
+		background-color: #fff;
+	}
+
+	div.google-maps-embed-api {
+		width: 70%;
+		height: auto;
+		float: right;
+	}
+
+	div.google-maps-embed-api iframe {
+		width: 100%;
+		height: 500px;
+	}
+
+	/* Events */
+
+	article.event {
+		margin: 3% 5%;
+		padding: 0;
+		width: 90%;
+		background-color: #fff;
+	}
+
+	article.event .text-content {
+		margin-top: 16px;
+		width: 46%;
+	}
+
+	article.event .attachment-post-thumbnail {
+		float: left;
+		margin-right: 2%;
+	}
+
+	article.event h2 {
+		margin-top: 0;
+	}
+
+	article.event .event-date {
+		font-size: 1.2em;
+		font-weight: bold;
+		text-transform: uppercase;
+		float: right;
+	}
+
+	/* Book Table */
+
+	div#page-overlay {
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 10;
+	}
+
+	aside.book-table {
+		padding: 4% 7%;
+		margin: 200px auto;
+		width: 640px;
+		height: 310px;
+		background-color: #eee;
+	}
+
+	aside.book-table img {
+		position: relative;
+		top: -70px;
+		left: 107%;
+		width: 80px;
+		cursor: pointer;
+		-webkit-filter: invert(100%);
+	}
+
+	aside.book-table h2 {
+		position: relative;
+		top: -70px;
+		margin-top: 0;
+		text-align: center;
+	}
+
+	aside.book-table form {
+		position: relative;
+		top: -70px;
+		width: 100%;
+		margin: auto;
+	}
+
+	aside.book-table form label {
+		display: inline-block;
+		width: 26%;
+		text-align: left;
+	}
+
+	/* https://css-tricks.com/snippets/css/style-placeholder-text/ */
+	::-webkit-input-placeholder {
+	   color: #777;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #777;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #777;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #777;  
+	}
+
+
+	input[type=text]#first-name, input[type=text]#last-name, input[type=e-mail]#e-mail {
+		width: 70%;
+	}
+
+	input[type=number]#number-of-guests {
+		width: 10%;
+	}
+
+	input[type=text], input[type=e-mail], input[type=number], input[type=date], input[type=time] {
+		background-color: #222;
+	}
+
+	input[type=text], input[type=e-mail], input[type=number], input[type=submit], input[type=date], input[type=time] {
+		margin: 1% 0 1% 3%;
+		border: none;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		transition: all ease-in-out .15s;
+		-moz-transition: all ease-in-out .15s;
+		-webkit-transition: all ease-in-out .15s;
+		color: #ddd;
+		font-weight: 700;
+		font-size: 14px;
+		-webkit-appearance: none;
+		border-radius: 0;
+		padding: 10px;
+		height: 40px;
+		line-height: 20px;
+	}
+
+	input[type=number]::-webkit-inner-spin-button, 
+	input[type=number]::-webkit-outer-spin-button {  
+	   opacity: 1;
+	}
+
+	input[name=reservation-button] {
+		float: right;
+		margin: 1% auto;
+		width: 25%;
+		background-color: #CC0000;
+	}
+
+	/* ABOUT, THE CHEFS & FOOD */
+
+	#about article, #food article, #the-chefs article {
+		padding: 0;
+		margin: 0;
+	}
+
+	article.our-story-page div:not(.divider),
+	article.lombra div:not(.divider),
+	article.chef div:not(.divider),
+	article.food div:not(.divider) {
+		width: 30%;
+		padding: 2%;
+	}
+
+	article.our-story-page img,
+	article.chef:first-child img,
+	article.food:first-child img,
+	article.our-story-page div:not(.divider),
+	article.chef:first-child div:not(.divider),
+	article.food:first-child div:not(.divider) {
+		float: left;
+	}
+
+	article.lombra img,
+	article.chef:last-child img,
+	article.food:last-child img,
+	article.lombra div:not(.divider),
+	article.chef:last-child div:not(.divider),
+	article.food:last-child div:not(.divider) {
+		float: right;
+	}
+
+	/* SINGLE POST PAGE */
+
+	main.single article div, main.single article img {
+		float: left;
+	}
+	
+	main.single article img {
+		margin-right: 50px;
+	}
+}
+
+/* TABLET QUERY */
+
+@media (min-width: 768px) and (max-width: 1280px),
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1), /* iPad mini */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1), /* iPad 1 and 2 */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2.0), /* iPad 3 and 4 */
+(device-width: 360) and (device-width: 640) and (-webkit-device-pixel-ratio: 3),
+(min-device-width: 800px) and (max-device-width: 1280px), /* Galaxy Tab 10.1 */
+screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332), /* Asus Nexus 7 */
+only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5), /* Kindle Fire HD 7" */
+only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5), /* Kindle Fire HD 8.9" */
+only screen and (min-device-width: 960px) and (max-device-width: 600) and (-webkit-min-device-pixel-ratio: 2) /* Google Nexus 7.2 */
+{
+
+	/* GENERAL LAYOUT */
+
+	div.container {
+		max-width: 100%;
+	}
+
+	article {
+		padding: 1%;
+		margin: 1%;
+		background-color: #fff;
+	}
+
+	article a {
+		display: block;
+		margin: 25px 0;
+	}
+
+	p, table {
+		font-size: 0.9em;
+	}
+
+	/* HEADER */
+
+	div.banner {
+		position: relative;
+		width: 100%;
+		height: 223px;
+		background-image: url('images/banner.jpg');
+		text-align: center;
+	}
+
+	img#logo {
+		margin-top: 27px;
+	}
+
+	/* NAVIGATION MENU */
+
+	.site-nav .menu-primary-menu-links-container {
+		display: block !important;
+	}
+
+	.site-header .site-nav {
+		background-color: #222;
+	}
+
+	.site-nav ul {
+		-webkit-padding-start: 0;
+		margin: 0;
+		padding-top: 5px;
+		padding-bottom: 42px;
+	}
+
+	.site-nav ul li {
+		text-transform: uppercase;
+		list-style: none;
+		float: left;
+	}
+
+	.site-nav a:link,
+	.site-nav a:visited {
+		color: #eee;
+		text-decoration: none;
+	}
+
+	.site-nav ul li a:link,
+	.site-nav ul li a:visited {
+		display: block;
+		padding: 10px 10px;
+	}
+
+	.site-nav .menu-item-1838 {
+		margin-top: 5px;
+		margin-right: 25px;
+		background-color: #CC0000;
+		border-radius: 5px;
+		float: right;
+	}
+
+	.site-nav .menu-item-1838 a:link,
+	.site-nav .menu-item-1838 a:visited {
+		padding: 4px 10px;
+	}
+
+	.site-nav ul li a:hover,
+	.site-nav ul li.current-menu-item a:link,
+	.site-nav ul li.current-menu-item a:visited {
+		text-decoration: underline;
+	}
+
+	nav.mobile-menu {
+		display: none;
+	}
+
+	.site-nav .menu-icon {
+		display: none;
+	}
+
+	/* HOME PAGE */
+
+	article.our-story {
+		background-color: transparent;
+		text-align: center;
+	}
+
+	article.our-story .short-divider {
+		margin: auto;
+	}
+
+	article.our-story p {
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+
+	article.first-row img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	article.first-row p {
+		height: 8em;
+	}
+
+	article.first-row a {
+		margin-bottom: 0;
+	}
+
+	article.preview {
+		position: relative;
+		width: 28%;
+		height: 440px;
+		float: left;
+	}
+
+	article.first-row:nth-child(2) {
+		margin: 1% 1.5% 1.5% 2%;
+	}
+
+	article.first-row:nth-child(3) {
+		margin: 1% 1.5% 1.5%;
+	}
+
+	article.first-row:nth-child(4) {
+		margin: 1% 2% 1.5% 1.5%;
+	}
+	
+	article .preview-image-link {
+		margin: 0;
+		padding: 0;
+	}
+
+	article .preview-link {
+		position:absolute;
+		bottom: 5%;
+		left: 3%;
+	}
+
+	article.news {
+		margin: 1.5% 2%; 
+		width: 94%;
+		height: auto;
+		float: left;
+	}
+
+	article.news img {
+		margin-right: 2%;
+		width: 50%;
+		height: auto;
+		float: left;
+	}
+
+	article.news a:last-child {
+		margin: 20px 0;
+	}
+
+	div.text-content {
+		width: 48%;
+		float: left;
+	}
+
+	/* WINE */
+
+	div.wine-picture {
+		width: 100%;
+	}
+
+	nav.wine-links {
+		text-align: center;
+	}
+
+	nav.wine-links ul {
+		margin: 0;
+		padding: 0;	
+	}
+
+	nav.wine-links ul li {
+		display: inline-block;
+		padding: 0 25px;
+	}
+
+	nav.wine-links ul li a {
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+	a.current-wine-item {
+		text-decoration: underline !important;
+	}
+
+	.wine-container {
+		width: 100%;
+		text-align: center;
+	}
+
+	.wine-container .long-divider {
+		margin: 30px auto;
+	}
+
+	.wines {
+		width: 100%;
+	}
+
+	article.wine {
+		display: inline-block;
+		margin: 12px 13px;
+		padding: 0;
+		width: 272px;
+		height: 500px;
+		background-color: #fff;
+		text-align: center;
+	}
+
+	article.wine h2 {
+		margin: 0 0 22px 0;
+		padding-top: 19px;
+		height: 61px;
+		font-size: 18px;
+		color: #eee;
+		background-color: #222;
+	}
+
+	article.wine a.post-link {
+		margin-top: 24px;
+		font-size: 18px;
+	}
+
+	/* CONTACT */
+
+	section.restaurant-information {
+		margin: 1%;
+		width: 22.5%;
+		float: left;
+	}
+
+	section.restaurant-information article {
+		padding: 5%;
+		margin-bottom: 6%;
+		width: 100%;
+		background-color: #fff;
+	}
+
+	section.restaurant-information h4 {
+		margin-top: 0;
+	}
+
+	section.restaurant-information a {
+		display: inline-block;
+		margin: 0;
+	}
+
+	section.restaurant-information p, section.restaurant-information table {
+		font-size: 0.8em;
+	}
+
+	article.opening-hours table tr td {
+		width: 50%;
+	}
+
+	div.google-maps-embed-api {
+		padding: 1%;
+		margin: 1%;
+		background-color: #fff;
+	}
+
+	div.google-maps-embed-api {
+		width: 70%;
+		height: auto;
+		float: right;
+	}
+
+	div.google-maps-embed-api iframe {
+		width: 100%;
+		height: 500px;
+	}
+
+	/* Events */
+
+	/*article.event {
+		width: 96%;
+		background-color: #fff;
+	}
+
+	article.event .attachment-post-thumbnail {
+		margin-right: 1%;
+		width: 50%;
+		height: auto;
+		float: left;
+	}*/
+
+	article.event {
+		margin: 3% 5%;
+		padding: 0;
+		width: 90%;
+		background-color: #fff;
+	}
+
+	article.event img {
+		width: 50%;
+		height: auto;
+	}
+
+	article.event .text-content {
+		margin-top: 16px;
+		width: 46%;
+	}
+
+	article.event .attachment-post-thumbnail {
+		float: left;
+		margin-right: 2%;
+	}
+
+	article.event h2 {
+		margin-top: 0;
+	}
+
+	article.event .event-date {
+		font-size: 1.2em;
+		font-weight: bold;
+		text-transform: uppercase;
+		float: right;
+	}
+
+	/* ABOUT, THE CHEFS & FOOD */
+
+	#about article, #food article, #the-chefs article {
+		padding: 0;
+		margin: 0;
+	}
+
+	#about article img, #food article img, #the-chefs article img {
+		width: 65%;
+		height: auto;
+	}
+
+	article.our-story-page div:not(.divider),
+	article.lombra div:not(.divider),
+	article.chef div:not(.divider),
+	article.food div:not(.divider) {
+		width: 30%;
+		padding: 0 2%;
+	}
+
+	article.our-story-page img,
+	article.chef:first-child img,
+	article.food:first-child img,
+	article.our-story-page div:not(.divider),
+	article.chef:first-child div:not(.divider),
+	article.food:first-child div:not(.divider) {
+		float: left;
+	}
+
+	article.lombra img,
+	article.chef:last-child img,
+	article.food:last-child img,
+	article.lombra div:not(.divider),
+	article.chef:last-child div:not(.divider),
+	article.food:last-child div:not(.divider) {
+		float: right;
+	}
+
+	/* BOOK TABLE */
+
+	div#page-overlay {
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 10;
+	}
+
+	aside.book-table {
+		padding: 4% 7%;
+		margin: 120px auto;
+		width: 640px;
+		height: 310px;
+		background-color: #eee;
+	}
+
+	aside.book-table img {
+		position: relative;
+		top: -40px;
+		left: 630px;
+		width: 80px;
+		cursor: pointer;
+		-webkit-filter: invert(100%);
+	}
+
+	aside.book-table h2 {
+		position: relative;
+		top: -70px;
+		margin-top: 0;
+		text-align: center;
+	}
+
+	aside.book-table form {
+		position: relative;
+		top: -70px;
+		width: 100%;
+		margin: auto;
+	}
+
+	aside.book-table form label {
+		display: inline-block;
+		width: 26%;
+		text-align: left;
+	}
+
+	/* https://css-tricks.com/snippets/css/style-placeholder-text/ */
+	::-webkit-input-placeholder {
+	   color: #777;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #777;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #777;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #777;  
+	}
+
+
+	input[type=text]#first-name, input[type=text]#last-name, input[type=e-mail]#e-mail {
+		width: 70%;
+	}
+
+	input[type=number]#number-of-guests {
+		width: 10%;
+	}
+
+	input[type=text], input[type=e-mail], input[type=number], input[type=date], input[type=time] {
+		background-color: #222;
+	}
+
+	input[type=text], input[type=e-mail], input[type=number], input[type=submit], input[type=date], input[type=time] {
+		margin: 1% 0 1% 3%;
+		border: none;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		transition: all ease-in-out .15s;
+		-moz-transition: all ease-in-out .15s;
+		-webkit-transition: all ease-in-out .15s;
+		color: #ddd;
+		font-weight: 700;
+		font-size: 14px;
+		-webkit-appearance: none;
+		border-radius: 0;
+		padding: 10px;
+		height: 40px;
+		line-height: 20px;
+	}
+
+	input[type=number]::-webkit-inner-spin-button, 
+	input[type=number]::-webkit-outer-spin-button {  
+	   opacity: 1;
+	}
+
+	input[name=reservation-button] {
+		float: right;
+		margin: 1% auto;
+		width: 25%;
+		background-color: #CC0000;
+	}
+
+	/* FOOTER */
+
+	.site-footer {
+		padding: 1%;
+		background-color: #222;
+		text-align: center;
+	}
+
+	.site-footer .logo-link img {
+		margin: 20px 0;
+		width: 30% !important;
+		height: auto;
+	}
+
+	.site-footer p {
+		margin: 0 0 20px 0;
+		font-family: Montserrat-regular;
+		color: #fff;
+		line-height: 1.5em;
+	}
+
+	.site-footer .social-media-container {
+		margin-bottom: 20px;
+	}
+
+	.site-footer .social-media {
+		margin: 0 2px;
+	}
+
+}
+
+
+/* Phone and Handheld query */
+
+@media (min-width: 320px) and (max-width: 768px),
+only screen and (min-device-width: 540px) and (max-device-width: 959px) and (-webkit-min-device-pixel-ratio: 1), /* Motorola Droid 3, Droid 4, Droid Razr, Atrix 4G, Atrix 2 */
+only screen and (min-device-width: 213px) and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5), /* LG Optimus One */
+only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 1.5), /* HTC Sensation, Evo 3D */
+only screen and (min-device-width: 320px) and (max-device-width: 480px), /* iPhone 3GS */
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2), /* iPhone 4 and 4S */
+only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2), /* iPhone 5 and 5S */
+only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2), /* iPhone 6 */
+only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3), /* iPhone 6+ */
+only screen and (min-device-width: 320px) and (max-device-width: 533px) and (-webkit-device-pixel-ratio: 1.5), /* Samsung Galaxy S, S2, W */
+only screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 2), /* Galaxy S3 */
+only screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3), /* Galaxy S4 */
+only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3), /* Galaxy S5 */
+only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) /* HTC ONE */ 
+{
+
+	/* General Layout */
+
+	div.container {
+		width: 100%;
+	}
+
+	article {
+		padding: 1%;
+		margin: 1%;
+		background-color: #fff;
+	}
+
+	article a {
+		display: block;
+		margin: 0 0 15px;
+	}
+
+	/* Header */
+
+	div.banner {
+		position: relative;
+		max-width: 100%;
+		height: auto;
+		background-image: url('images/banner.jpg');
+		text-align: center;
+	}
+
+	img#logo {
+		margin: 8px 0;
+		max-width: 90%;
+		height: auto;
+	}
+
+	/* HOME PAGE */
+
+	article.our-story {
+		background-color: transparent;
+	}
+
+	article.our-story p {
+		font-size: 1.05em;
+		font-weight: bold;
+	}
+
+	article.our-story, article.first-row, article.news, article.event {
+		margin-bottom: 10px;
+	}
+
+	article img {
+		width: 100%;
+		height: auto;
+	}
+
+	/* Footer */
+	.site-footer {
+		padding: 1%;
+		background-color: #222;
+		text-align: center;
+	}
+
+	.site-footer .logo-link img {
+		margin: 20px 0;
+		width: 60%;
+		height: auto;
+	}
+
+	.site-footer p {
+		margin: 0 0 20px 0;
+		font-family: Montserrat-regular;
+		color: #fff;
+		line-height: 1.5em;
+	}
+
+	.site-footer .social-media-container {
+		margin-bottom: 20px;
+	}
+
+	.site-footer .social-media {
+		margin: 0 2px;
+	}
+
+	/* Navigation Menu */
+
+	.site-header .site-nav {
+		background-color: #222;
+	}
+
+	.site-nav .menu-primary-menu-links-container {
+		display: none;
+	}
+
+	.site-nav .menu-icon {
+		margin: 0 15px 0 0;
+		float: right;
+	}
+
+	.site-nav .menu-booking-container {
+		margin-right: 10px;
+		font-size: 1.4em;
+		float: right;
+	}
+
+	.site-nav .menu-booking-container ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.site-nav .menu-booking-container ul li {
+		padding: 1px;
+		margin: 8px 10px 0 0;
+		background-color: #CC0000;
+		border-radius: 5px;
+	}
+
+	.site-nav ul li {
+		text-transform: uppercase;
+		list-style: none;
+		float: left;
+	}
+
+	.site-nav a:link,
+	.site-nav a:visited {
+		color: #eee;
+		text-decoration: none;
+	}
+
+	.site-nav ul li a:link,
+	.site-nav ul li a:visited {
+		display: block;
+		padding: 10px 18px;
+	}
+
+	.site-nav ul li a:hover,
+	.site-nav ul li.current-menu-item a:link,
+	.site-nav ul li.current-menu-item a:visited {
+		text-decoration: underline;
+	}
+
+	/* Mobile Menu */
+
+	nav.mobile-menu {
+		position: fixed;
+		display: none;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.92);
+		z-index: 100;
+		text-align: center;
+	}
+
+	nav.mobile-menu img {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
+
+	nav.mobile-menu a {
+		color: #ddd;
+		font-size: 1.5em;
+		text-decoration: none;
+	}
+
+	nav.mobile-menu ul {
+		padding: 0;
+		margin: 130px 0 0 0;
+	}
+
+	nav.mobile-menu ul li {
+		padding: 4px;
+		list-style: none;
+	}
+
+	/* Wine links */
+
+	div.wine-picture {
+		width: 100%;
+	}
+
+	nav.wine-links {
+		text-align: center;
+	}
+
+	nav.wine-links ul {
+		margin: 0;
+		padding: 0;	
+	}
+
+	nav.wine-links ul li {
+		display: inline-block;
+		padding: 0 25px;
+	}
+
+	nav.wine-links ul li a {
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+	a.current-item {
+		text-decoration: underline !important;
+	}
+
+	/* Wine Container*/
+
+	.wine-container {
+		width: 100%;
+		text-align: center;
+	}
+
+	.wine-container .long-divider {
+		margin: 10px auto;
+	}
+
+	.wines {
+		width: 100%;
+	}
+
+	article.wine {
+		display: inline-block;
+		margin: 12px 13px;
+		padding: 0;
+		width: 272px;
+		height: auto;
+		background-color: #fff;
+		text-align: center;
+	}
+
+	article.wine h2 {
+		margin: 0 0 22px 0;
+		padding-top: 19px;
+		height: 61px;
+		font-size: 18px;
+		color: #eee;
+		background-color: #222;
+	}
+
+	article.wine a.post-link {
+		margin-top: 24px;
+		font-size: 18px;
+	}
+
+	/* Contact */
+
+	section.restaurant-information a {
+		display: inline-block;
+	}
+
+	section.restaurant-information p, section.restaurant-information table {
+		font-size: 1em;
+	}
+
+	div.google-maps-embed-api {
+		padding: 1%;
+		margin: 1%;
+		background-color: #fff;
+	}
+
+	div.google-maps-embed-api {
+		height: auto;
+	}
+
+	div.google-maps-embed-api iframe {
+		width: 100%;
+		height: 200px;
+	}
+
+	/* Events */
+
+	article.event h2 {
+		margin-top: 0;
+	}
+
+	article.event .event-date {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	/* Book Table */
+
+	div#page-overlay {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 10;
+		text-align: center;
+	}
+
+	aside.book-table form label {
+		display: block;
+	}
+
+	aside.book-table img {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
+
+	aside.book-table h2 {
+		margin-top: 60px;
+		color: #ddd;
+		text-align: center;
+	}
+
+	aside.book-table form {
+		width: 100%;
+	}
+
+	aside.book-table form input {
+		margin: 0 auto 5px;
+	}
+
+	#first-name, #last-name, #e-mail {
+		width: 80%;
+	}
+
+	#number-of-guests {
+		display: block;
+		margin-bottom: 30px; 
+		width: 80px;
+	}
+
+	aside.book-table form label {
+		color: #eee;
+	}
+
+	input[name=reservation-button] {
+		width: 200px;
+	}
+
+	/* https://css-tricks.com/snippets/css/style-placeholder-text/ */
+	::-webkit-input-placeholder {
+	   color: #777;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #777;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #777;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #777;  
+	}
+
+	input[type=text], input[type=e-mail], input[type=number], input[type=date], input[type=time] {
+		background-color: #222;
+	}
+
+	input[type=text], input[type=e-mail], input[type=number], input[type=submit], input[type=date], input[type=time] {
+		border: none;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		transition: all ease-in-out .15s;
+		-moz-transition: all ease-in-out .15s;
+		-webkit-transition: all ease-in-out .15s;
+		color: #ddd;
+		font-weight: 700;
+		font-size: 14px;
+		-webkit-appearance: none;
+		border-radius: 0;
+		padding: 10px;
+		height: 40px;
+		line-height: 20px;
+	}
+
+	input[type=number]::-webkit-inner-spin-button, 
+	input[type=number]::-webkit-outer-spin-button {  
+	   opacity: 1;
+	}
+
+	input[name=reservation-button] {
+		background-color: #CC0000;
+	}
+
+	/* ABOUT, THE CHEFS & FOOD */
+
+
+
+}
